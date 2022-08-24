@@ -48,5 +48,4 @@ st.write(iris.target_names[prediction])
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
 
-st.image(all_iris, 
-         caption='Three Iris Species <source: https://www.researchgate.net/figure/Three-classes-of-IRIS-dataset-for-classification-17_fig2_349634676>')
+st.image("https://www.researchgate.net/figure/Three-classes-of-IRIS-dataset-for-classification-17_fig2_349634676", caption='Three Iris Species')
