@@ -49,3 +49,6 @@ st.write(iris.target_names[prediction])
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
 
+all_iris = Image.open("Iris Photo.png")
+st.image(all_iris, 
+         caption='Three Iris Species <source: https://morioh.com/p/eafb28ccf4e3>')
